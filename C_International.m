@@ -1,9 +1,9 @@
+% By I. Aguilar & M. Pacheco
+% A fun little file to parse International orders!
+
 close all;
 clear;
 clc;
-
-%marchDocument = readmatrix('C:\Users\tediz\OneDrive\Documentos\Second invt 030920');
-% results = dlmread('C:\Users\tediz\OneDrive\Documentos\Campos_trial\Second invt 030920.csv', ',');
 
 fid = fopen('C:\Users\tediz\OneDrive\Documentos\Campos_trial\Second invt 030920.txt');
 tline = fgetl(fid);
